@@ -1,3 +1,5 @@
 *.zip
 non-vehicles_smallset/
 vehicles_smallset/
+vehicles/
+non-vehicles/

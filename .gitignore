@@ -3,3 +3,6 @@ non-vehicles_smallset/
 vehicles_smallset/
 vehicles/
 non-vehicles/
+.DS_Store
+__pycache__/
+*copy.py

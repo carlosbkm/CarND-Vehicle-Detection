@@ -29,7 +29,7 @@ The goals / steps of this project are the following:
 [norm]: ./writeup_images/normalized-features.png
 [video1]: ./project_video.mp4
 [pipe1]: ./writeup_images/pipe1.png
-[pipe2]: ./writeup_images/pipe1.png
+[pipe2]: ./writeup_images/pipe2.png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ###Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  

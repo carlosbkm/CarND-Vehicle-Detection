@@ -127,11 +127,14 @@ Band 3
 
 Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  Here are some example images:
 
+With scale = 1.2
 ![alt text][pipe1]
 
+With scale = 2
 ![alt text][pipe2]
 
-![alt text][pipe3]
+
+
 ---
 
 ### Video Implementation
@@ -165,4 +168,7 @@ And here is the final result after applying the threshold to get rid of false po
 I found many difficulties to work with the hog channels, because after applying some transformations I frequently got many errors with the arrays shapes.
 
 Also, I found very hard to tweak the values for the windows to succesfully detect the cars. More research should be done to get better fit rectangles to the images of the vehicles.
+
+Although the LinearSVC produced a very high accuracy, I saw a tremendous improvement in the accuracy of the detection when training the model with more images. During the development I started using the small dataset, I wasn't able to detect the white car properly. But with the same parameters, just by using all the images available from the big dataset, then I could detect the vehicles with no problems. So I guess that for this kind of problems, having a bigger (and balanced) dataset would make a difference.
+
 
